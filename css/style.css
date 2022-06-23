@@ -1,0 +1,11 @@
+/* fuente para la firma del copy */
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+/*font-family: 'Passions Conflict', cursive;*/
+/* fuente para el titulo */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+/*font-family: 'Yellowtail', cursive;*/
+
+span#titulo-nav-index {
+    font-family: 'Yellowtail', cursive;
+    color: rgb(250, 163, 7);
+}
