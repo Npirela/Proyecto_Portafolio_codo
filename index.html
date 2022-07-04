@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nolberto Pirela">
+    <meta name="description" content="Portfolio de Proyectos Relizados">
+    <meta name="keywords" content="HTML, CSS, JavaScript, php, proyectos, diseño web, developer, backend, desarrollador, freelancer">
     <title>Nolberto P.- Portafolio</title>
 
     <!-- Hoja de estilo Local Boostrap -->
@@ -18,40 +21,109 @@
     <script src="resources\bootstrap-5.1.3-dist\js\bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <section>
-        <nav class="navbar navbar-expand-lg sticky-bottom navbar-dark bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img\logo\L-Whitefont-trim.JPEG" alt="" width="30" height="30">
-                    <span id="titulo-nav-index">Npirela</span>
+                    <img src="img\logo\L-Whitefont-trim.JPEG" alt="" width="40" height="40">
+                    <span id="titulo-nav-index"><b>Npirela</b></span>
                 </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
+                                    <a class="nav-link" href="galeria.html">Portafolio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                    <a class="nav-link" href="Form.html">Contacto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled">Disabled</a>
+                                    <a class="nav-link" href="admin.html">Admin</a>
                                 </li>
                             </ul>
                         </div>
                 </div>
         </nav>
-    </section>
+    </header>
     <main>
+        
+        <section class="main-sec__carousel">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_960_720.png" class="d-block w-100 carouselitem__carru--img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2013/04/27/14/54/eye-107474_960_720.jpg" class="d-block w-100 carouselitem__carru--img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://cdn.pixabay.com/photo/2018/04/26/08/21/giraffe-3351363_960_720.jpg" class="d-block w-100 carouselitem__carru--img" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="division">
+            <div class="row row__division g-0">
+                <div class="col col__division--derecha g-0"></div>
+                <div class="col col__division--izquierda g-0"></div>
+
+            </div>
+        </section>
         
     </main>
     
-  
+  <footer>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+  </footer>
 
 </body>
 </html>

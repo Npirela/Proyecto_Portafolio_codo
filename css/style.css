@@ -4,6 +4,34 @@
 /* fuente para el titulo */
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 /*font-family: 'Yellowtail', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+b{
+    font-size: 2rem;
+}
+body{
+    background-color: green;
+    height: 100vh;
+    
+}
+main{
+    padding-top: 3.4%;
+}
+
+
+/* .main-sec__carousel{
+    height: 95vh;
+} */
+.carouselitem__carru--img{
+max-height: 95vh;
+}
+footer{
+    background-color: orangered;
+    height: 10vh;
+}
 
 span#titulo-nav-index {
     font-family: 'Yellowtail', cursive;
