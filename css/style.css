@@ -4,6 +4,10 @@
 /* fuente para el titulo */
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 /*font-family: 'Yellowtail', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/*font-family: 'Oswald', sans-serif;*/
 *{
     margin: 0;
     padding: 0;
@@ -30,10 +34,10 @@ max-height: 95vh;
 }
 footer{
     background-color: orangered;
-    height: 10vh;
+    height: 30vh;
 }
 
 span#titulo-nav-index {
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Oswald', sans-serif;
     color: rgb(250, 163, 7);
 }
