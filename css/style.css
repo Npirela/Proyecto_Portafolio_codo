@@ -41,3 +41,12 @@ span#titulo-nav-index {
     font-family: 'Oswald', sans-serif;
     color: rgb(250, 163, 7);
 }
+
+.div__derecha{
+
+background: rgb(134,161,177);
+background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);
+
+}
+/* gradiente para fondos background: rgb(134,161,177);
+background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);*/
