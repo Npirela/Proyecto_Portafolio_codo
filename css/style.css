@@ -18,7 +18,7 @@ b{
 }
 body{
     background-color: green;
-    height: 100vh;
+    min-height: 100vh;
     
 }
 main{
@@ -34,7 +34,7 @@ max-height: 95vh;
 }
 footer{
     background-color: orangered;
-    height: 30vh;
+    min-height: 30vh;
 }
 
 span#titulo-nav-index {
@@ -48,5 +48,21 @@ background: rgb(134,161,177);
 background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);
 
 }
+
+.img__div--derecha{
+    max-height: auto;
+}
+
+.nav__color{
+    background-color: #0F1319 !important;
+}
+
+
+
+.img__profile{
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
 /* gradiente para fondos background: rgb(134,161,177);
 background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);*/
