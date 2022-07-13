@@ -17,7 +17,7 @@ b{
     font-size: 2rem;
 }
 body{
-    background-color: green;
+    background-color: rgb(221, 222, 220);
     min-height: 100vh;
     
 }
@@ -33,13 +33,18 @@ main{
 max-height: 91vh;
 }
 footer{
-    background-color: orangered;
-    min-height: 30vh;
+    background-color: rgb(10, 161, 226);
+    min-height: 20vh;
 }
 
 span#titulo-nav-index {
     font-family: 'Oswald', sans-serif;
     color: rgb(250, 163, 7);
+}
+.container__division{
+    height: 100vh;
+    
+    
 }
 
 .div__derecha{
@@ -50,7 +55,8 @@ background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35
 }
 
 .img__div--derecha{
-    max-height: auto;
+    max-height: 100%;
+    max-width: auto;
 }
 
 .nav__color{
@@ -60,14 +66,37 @@ background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35
 
 
 .img__profile{
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 40%;
+    max-width: 40%;
 }
 
 .col__division--derecha, .col__division--izquierda {
     height: 100%;
-    width: 50%;
+    width: 100%;
+
+    min-height: 30%;
+   
 }
+
+.col__division--derecha{
+    background-color: rgb(105, 123, 119);
+}
+.col__division--izquierda{
+    background-color: rgb(224, 90, 10) ;
+    
+}
+
+
+.texto__division--Justificado{
+    text-align: justify;
+    text-justify: distribute;
+    
+
+}
+.texto__division--centrado{
+    text-align: center;
+}
+
 
 /* gradiente para fondos background: rgb(134,161,177);
 background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);*/
