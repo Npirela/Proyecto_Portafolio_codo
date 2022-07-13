@@ -22,7 +22,7 @@ body{
     
 }
 main{
-    padding-top: 3.4%;
+    padding-top: 9vh;
 }
 
 
@@ -30,7 +30,7 @@ main{
     height: 95vh;
 } */
 .carouselitem__carru--img{
-max-height: 95vh;
+max-height: 91vh;
 }
 footer{
     background-color: orangered;
@@ -60,8 +60,13 @@ background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35
 
 
 .img__profile{
-    max-height: 50vh;
-    max-width: 50vw;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.col__division--derecha, .col__division--izquierda {
+    height: 100%;
+    width: 50%;
 }
 
 /* gradiente para fondos background: rgb(134,161,177);
