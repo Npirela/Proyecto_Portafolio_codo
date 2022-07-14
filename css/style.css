@@ -51,12 +51,18 @@ span#titulo-nav-index {
 
 background: rgb(134,161,177);
 background: linear-gradient(90deg, rgba(134,161,177,1) 0%, rgba(10,161,226,1) 35%, rgba(224,90,10,1) 100%);
+min-height: 91vh;
 
 }
+
 
 .img__div--derecha{
     max-height: 100%;
     max-width: auto;
+    padding: auto;
+}
+.div__adm{
+    min-height: 91vh;
 }
 
 .nav__color{
